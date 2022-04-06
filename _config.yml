@@ -27,7 +27,9 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-repository: techb0lt/puml
+repository: "techb0lt/puml"
+url: "https://techb0lt.github.io"
+baseurl: "/puml"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
