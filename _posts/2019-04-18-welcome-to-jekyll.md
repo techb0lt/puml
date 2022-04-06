@@ -141,7 +141,7 @@ For any dMPS deal the very first step is with pursuit team to get a signed contr
     * RMC involvement, confirmed process outlined and how we are engaging with them
     * RMMC name is documented by the Pursuit Team
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 '_____________________
@@ -208,7 +208,7 @@ endwhile (No)
     * Label Template
     * Supplies contact for each site/device
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 |T&T|
@@ -246,7 +246,7 @@ end fork
 ```
 ## Planning
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 :Kickoff<
@@ -294,7 +294,7 @@ Hardware ordering has a financial impact on HP and needs to be planned carefully
     * ex.  A deployment of 5 large sites, with 250 devices per site and a pull print solution could take 15 weeks or more to deploy.  In this case at least 5 hardware orders should be considered.  Once all the devices on a hardware order are deployed and accepted by the customer, the invoice must be released, by requesting the removal of the Billing Block and HP can start to recognize the revenue.
 
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 !pragma useverticalif on
@@ -383,7 +383,7 @@ Once the first solution is deployed you will receive a SAID number for the solut
 
 ## Deployment Preparation
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 :Ordering<
@@ -422,7 +422,7 @@ endwhile (Yes)
         Where there is a solution, staging by the installation partner is mandatory.
 
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 :Deployment Preparation<
@@ -504,7 +504,7 @@ endif
 
 ### Software Deployment
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 :Deployment Preparation<
@@ -535,7 +535,7 @@ endif
 
     !!! tip If there are multiple hardware orders for any one customer, it is advisable to use the devices from one complete order before moving onto the next order where possible, in order to be able to release the hardware order for billing.
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 :Deployment<
@@ -593,7 +593,7 @@ endif
 
 ## BAU Handover
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 :Lease Activation<
@@ -630,7 +630,7 @@ stop
 !!! note What is a DOA device?
     A DOA (dead on arrival) device is one that fails within 30 days of installation and cannot be repaired (devices are expected to have been installed within 90 days of ordering).
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 autonumber
@@ -697,7 +697,7 @@ end
 <!--
 ## DOA Process Swim Lane
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 |A| ADM / TM
@@ -767,7 +767,7 @@ endif
 
 # Change Order process
 
-```plantuml
+```plantuml!
 @startuml
 !theme cerulean
 |Customer|
